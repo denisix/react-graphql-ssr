@@ -1,0 +1,20 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "current",
+        "browsers": ["last 2 versions"]
+      }
+    }]    
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-react-jsx"],
+    ["css-modules-transform", { "hashPrefix": "TEST" }],
+  ],
+  "env": {
+    "production": {
+      "presets": ["@babel/env", "es2015", "react", "es2015-native-modules", "stage-0"]
+    }
+  }
+}
+

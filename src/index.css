@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+.card {
+  flex: 0 0 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+} 
+.card img {
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+}
+.card .text {
+  padding: 0 10px 0;
+}
+
+h4 {
+  margin: 5px 0 0 0;
+  color: #555;
+}
+
+.card p {
+  margin: 5px 0px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  color: #7d5151;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.loc-epi {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.loc-epi span {
+  color: #2694d6;
+  font-size: 11px;
+}
